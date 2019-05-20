@@ -1,1 +1,1 @@
-/* No CSS */
+@import url("https://fonts.googleapis.com/css?family=Montserrat");body{font-family:'Montserrat', sans-serif;background:url("/images/bg.png"),no-repeat}.nav-link,.color-nav{color:#b37537;background-color:black !important}.nav-link:hover,.color-nav:hover{color:white}.photo{width:350px;height:525px}@media screen and (max-width: 800px){.photo{margin:2%}}

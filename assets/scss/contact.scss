@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url("/images/bg.png"), no-repeat;
+}
+
+.active {
+    background-image: linear-gradient(to bottom, #000000, #331d1f, #61342e, #8e5135, #b37537, #b37537, #b37537, #b37537, #8e5135, #61342e, #331d1f, #000000);
+    
+}
+
+p {
+    color: #b37537;
+    text-transform:uppercase;
+}

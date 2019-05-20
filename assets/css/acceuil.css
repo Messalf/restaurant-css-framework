@@ -1,1 +1,61 @@
-/* No CSS */
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: url("/images/bg.png"), no-repeat;
+}
+
+.active {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(#331d1f), color-stop(#61342e), color-stop(#8e5135), color-stop(#b37537), color-stop(#b37537), color-stop(#b37537), color-stop(#b37537), color-stop(#8e5135), color-stop(#61342e), color-stop(#331d1f), to(#000000));
+  background-image: -webkit-linear-gradient(top, #000000, #331d1f, #61342e, #8e5135, #b37537, #b37537, #b37537, #b37537, #8e5135, #61342e, #331d1f, #000000);
+  background-image: -o-linear-gradient(top, #000000, #331d1f, #61342e, #8e5135, #b37537, #b37537, #b37537, #b37537, #8e5135, #61342e, #331d1f, #000000);
+  background-image: linear-gradient(to bottom, #000000, #331d1f, #61342e, #8e5135, #b37537, #b37537, #b37537, #b37537, #8e5135, #61342e, #331d1f, #000000);
+}
+
+.jumbotron-fluid {
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #b37537;
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.jumbotron-fluid .lead {
+  font-size: 25px;
+}
+
+.panel {
+  background-color: rgba(184, 134, 11, 0.5);
+  color: black;
+  font-size: 20px;
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 1%;
+}
+
+.btn {
+  border: solid white 1px;
+  color: #b37537;
+}
+
+.btn:hover {
+  background-color: #b37537;
+  color: black;
+}
+
+/*Responsive Smartphone*/
+@media only screen and (max-width: 760px) {
+  .gap {
+    padding-bottom: 20px;
+  }
+  footer {
+    position: relative !important;
+    padding-bottom: 1px;
+    width: 100%;
+  }
+}
