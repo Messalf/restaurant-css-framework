@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 body {
   font-family: 'Montserrat', sans-serif;
-  background: url("/images/bg.png"), no-repeat;
+  background: url("../../images/bg.png"), no-repeat;
 }
 
 .nav-link, .color-nav {
@@ -23,3 +23,4 @@ body {
     margin: 2%;
   }
 }
+/*# sourceMappingURL=photo.css.map */
